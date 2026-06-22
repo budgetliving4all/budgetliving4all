@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <strong>{{ site.title }}</strong>
+      <p>Practical guides to eating well on a budget.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="{{ '/about/' | prepend: site.baseurl }}">About</a>
+      <a href="{{ '/privacy/' | prepend: site.baseurl }}">Privacy</a>
+      <a href="{{ '/affiliate-disclosure/' | prepend: site.baseurl }}">Affiliate disclosure</a>
+      <a href="{{ '/contact/' | prepend: site.baseurl }}">Contact</a>
+    </nav>
+    <p class="footer-copy">&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+  </div>
+</footer>

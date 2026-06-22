@@ -1,0 +1,45 @@
+title: Budget Meal Prep
+description: Practical meal prep guides and budget cooking tips to eat well for less.
+url: "https://budgetmealprep.com"
+baseurl: ""
+
+author:
+  name: Budget Meal Prep
+  email: hello@budgetmealprep.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Plugins (all supported by GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO defaults
+twitter:
+  username: budgetmealprep
+  card: summary
+
+# Pagination
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+
+# Collections
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Budget Meal Prep"
+      image: "/assets/images/default-og.jpg"

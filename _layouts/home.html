@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container">
+    <h1>Eat well.<br>Spend less.</h1>
+    <p class="hero-sub">Practical meal prep guides and budget cooking tips — no fluff, no filler.</p>
+  </div>
+</section>
+
+<section class="featured-posts container">
+  <h2 class="section-title">Latest guides</h2>
+  <div class="post-grid">
+    {% for post in paginator.posts %}
+    <article class="post-card">
+      {% if post.image %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-card-image-link">
+        <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.image_alt | default: post.title }}" class="post-card-image" loading="lazy" />
+      </a>
+      {% endif %}
+      <div class="post-card-body">
+        {% if post.categories %}
+        <span class="category-tag">{{ post.categories | first }}</span>
+        {% endif %}
+        <h3 class="post-card-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+        <div class="post-card-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          {% if post.read_time %} · {{ post.read_time }} min read{% endif %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="btn">Newer posts</a>
+    {% endif %}
+    <span class="page-count">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn">Older posts</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+
+</section>

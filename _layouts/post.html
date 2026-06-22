@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<article class="post" itemscope itemtype="https://schema.org/Article">
+
+  <header class="post-header">
+    <div class="container">
+      {% if page.categories %}
+      <div class="post-categories">
+        {% for category in page.categories %}
+        <a href="{{ '/category/' | append: category | prepend: site.baseurl }}" class="category-tag">{{ category }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+
+      {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+      {% endif %}
+
+      <div class="post-meta">
+        <span class="post-date">
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ page.date | date: "%B %-d, %Y" }}
+          </time>
+        </span>
+        {% if page.read_time %}
+        <span class="read-time">{{ page.read_time }} min read</span>
+        {% endif %}
+        {% if page.last_modified_at %}
+        <span class="updated">Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %-d, %Y" }}</time></span>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  {% if page.image %}
+  <div class="post-hero">
+    <div class="container">
+      <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.image_alt | default: page.title }}" class="hero-image" itemprop="image" />
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="post-body container">
+
+    <div class="post-content" itemprop="articleBody">
+
+      {% if page.quick_answer %}
+      <div class="quick-answer">
+        <strong>Quick answer:</strong> {{ page.quick_answer }}
+      </div>
+      {% endif %}
+
+      {{ content }}
+    </div>
+
+    <aside class="post-sidebar">
+      {% include sidebar.html %}
+    </aside>
+
+  </div>
+
+  {% if page.affiliate_disclaimer %}
+  <div class="container">
+    <div class="affiliate-notice">
+      <strong>Disclosure:</strong> This post contains affiliate links. If you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend products we genuinely use and trust.
+    </div>
+  </div>
+  {% endif %}
+
+</article>
+
+{% include related-posts.html %}

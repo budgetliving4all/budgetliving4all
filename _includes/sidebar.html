@@ -1,0 +1,29 @@
+<div class="sidebar-widget">
+  <h3>Popular guides</h3>
+  <ul class="sidebar-post-list">
+    {% assign popular = site.posts | sort: 'views' | reverse | limit: 5 %}
+    {% for post in site.posts limit:5 %}
+    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="sidebar-widget sidebar-cta">
+  <h3>Weekly meal plans</h3>
+  <p>Get a free budget meal plan every week — straight to your inbox.</p>
+  <form class="sidebar-form" action="#" method="post">
+    <input type="email" name="email" placeholder="your@email.com" required />
+    <button type="submit">Get free plans</button>
+  </form>
+</div>
+
+<div class="sidebar-widget">
+  <h3>Browse by topic</h3>
+  <div class="tag-cloud">
+    <a href="{{ '/category/meal-prep/' | prepend: site.baseurl }}" class="tag">Meal prep</a>
+    <a href="{{ '/category/budget-tips/' | prepend: site.baseurl }}" class="tag">Budget tips</a>
+    <a href="{{ '/category/high-protein/' | prepend: site.baseurl }}" class="tag">High protein</a>
+    <a href="{{ '/category/freezer-meals/' | prepend: site.baseurl }}" class="tag">Freezer meals</a>
+    <a href="{{ '/category/reviews/' | prepend: site.baseurl }}" class="tag">Reviews</a>
+  </div>
+</div>
