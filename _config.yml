@@ -1,11 +1,19 @@
 title: Budget Meal Prep
 description: Practical meal prep guides and budget cooking tips to eat well for less.
-url: "https://budgetliving4all.github.io/budgetmealprep/"
+
+# IMPORTANT: Set url to your GitHub Pages URL until you have a custom domain
+# If using github.io: url: "https://YOUR-USERNAME.github.io"
+# If using custom domain: url: "https://budgetmealprep.com"
+url: "https://YOUR-USERNAME.github.io"
+
+# IMPORTANT: Set baseurl to your repo name (with leading slash)
+# e.g. if repo is named "budgetmealprep": baseurl: "/budgetmealprep"
+# If using a custom domain OR repo named exactly "YOUR-USERNAME.github.io": baseurl: ""
 baseurl: "/budgetmealprep"
 
 author:
-  name: Budget Living 4 All
-  email: budgetliving4all@gmail.com
+  name: Budget Meal Prep
+  email: hello@budgetmealprep.com
 
 # Build settings
 markdown: kramdown
@@ -18,11 +26,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# SEO defaults
-twitter:
-  username: budgetmealprep
-  card: summary
-
 # Pagination
 paginate: 10
 paginate_path: "/page/:num/"
@@ -34,7 +37,7 @@ exclude:
   - README.md
   - node_modules
 
-# Collections
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -42,4 +45,3 @@ defaults:
     values:
       layout: "post"
       author: "Budget Meal Prep"
-      image: "/assets/images/default-og.jpg"

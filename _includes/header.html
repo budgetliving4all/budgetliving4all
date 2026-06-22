@@ -1,14 +1,14 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a href="{{ '/' | prepend: site.baseurl }}" class="site-logo">
+    <a href="{{ '/' | relative_url }}" class="site-logo">
       {{ site.title }}
     </a>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="{{ '/' | prepend: site.baseurl }}">Home</a>
-      <a href="{{ '/meal-prep/' | prepend: site.baseurl }}">Meal prep</a>
-      <a href="{{ '/budget-tips/' | prepend: site.baseurl }}">Budget tips</a>
-      <a href="{{ '/reviews/' | prepend: site.baseurl }}">Reviews</a>
-      <a href="{{ '/about/' | prepend: site.baseurl }}">About</a>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/meal-prep/' | relative_url }}">Meal prep</a>
+      <a href="{{ '/budget-tips/' | relative_url }}">Budget tips</a>
+      <a href="{{ '/reviews/' | relative_url }}">Reviews</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
     </nav>
   </div>
 </header>
