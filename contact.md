@@ -1,18 +1,11 @@
 ---
 layout: default
 title: Contact
-description: Get in touch with Budget Meal Prep.
 permalink: /contact/
 ---
-
-<div class="container" style="max-width:720px; padding: 48px 20px;">
-
+<div class="static-page">
 <h1>Contact</h1>
-
-<p>Have a question, a recipe suggestion, or spotted an error? Reach out at:</p>
-
-<p><strong>Email:</strong> <a href="mailto:hello@budgetmealprep.com">hello@budgetmealprep.com</a></p>
-
-<p>We typically respond within 2–3 business days.</p>
-
+<p>Got a question, a tip, or spotted something wrong? Reach out.</p>
+<p><strong>Email:</strong> <a href="mailto:budgetliving4all@gmail.com">budgetliving4all@gmail.com</a></p>
+<p>We reply within a few days.</p>
 </div>

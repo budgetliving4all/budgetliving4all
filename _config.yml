@@ -1,47 +1,50 @@
-title: Budget Meal Prep
-description: Practical meal prep guides and budget cooking tips to eat well for less.
+title: Budget Living 4 All
+tagline: Real strategies for spending less and living well.
+description: Practical guides on meal prep, frugal living, budget tips, and making the most of every dollar.
 
-# IMPORTANT: Set url to your GitHub Pages URL until you have a custom domain
-# If using github.io: url: "https://YOUR-USERNAME.github.io"
-# If using custom domain: url: "https://budgetmealprep.com"
-url: "https://YOUR-USERNAME.github.io"
-
-# IMPORTANT: Set baseurl to your repo name (with leading slash)
-# e.g. if repo is named "budgetmealprep": baseurl: "/budgetmealprep"
-# If using a custom domain OR repo named exactly "YOUR-USERNAME.github.io": baseurl: ""
+url: "https://budgetliving4all.github.io"
 baseurl: "/budgetmealprep"
 
 author:
-  name: Budget Meal Prep
-  email: hello@budgetmealprep.com
+  name: Budget Living 4 All
+  email: budgetliving4all@gmail.com
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
 
-# Plugins (all supported by GitHub Pages)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Pagination
 paginate: 10
 paginate_path: "/page/:num/"
 
-# Exclude from build
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - node_modules
 
-# Defaults
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      author: "Budget Meal Prep"
+      author: "Budget Living 4 All"
+      image: "/assets/images/default-og.jpg"
+
+# Site sections — add new ones here as you grow
+sections:
+  - name: Meal Prep
+    path: /meal-prep/
+    description: Batch cooking guides that actually fit a real schedule and budget.
+  - name: Budget Tips
+    path: /budget-tips/
+    description: Grocery, household, and everyday spending strategies.
+  - name: Reviews
+    path: /reviews/
+    description: Honest takes on kitchen gear and tools worth buying.

@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Budget Meal Prep — Eat well for less
-description: Practical meal prep guides and budget cooking tips. Learn how to eat healthy on less money with real, actionable advice.
+title: Budget Living 4 All
+description: Practical guides on meal prep, grocery budgets, and everyday frugal living. Real strategies, no fluff.
 ---
