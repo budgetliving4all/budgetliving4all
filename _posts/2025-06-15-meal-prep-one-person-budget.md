@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meal Prep for One Person on a Budget: The Complete Guide"
-description: "How to meal prep for one person on $30-45 a week. Practical strategies, a real grocery breakdown, and a 90-minute Sunday routine that actually works."
+description: "How to meal prep for one person on $30-45 a week. A real grocery breakdown, a 90-minute Sunday routine, and food safety guidance from USDA sources."
 target_keyword: "meal prep for one person on a budget"
 date: 2025-06-15 09:00:00 +0000
 last_modified_at: 2025-06-15 09:00:00 +0000
@@ -11,8 +11,17 @@ image: /assets/images/meal-prep-one-person.jpg
 image_alt: "Five meal prep containers with portioned chicken, rice, and vegetables"
 read_time: 8
 author: Budget Living 4 All
-quick_answer: "Pick one protein, one grain, and two vegetables. Cook them all on Sunday in about 90 minutes. Portion into containers. A week of lunches and dinners for one person costs $25-45 depending on your protein choices."
+quick_answer: "Pick one protein, one grain, and two vegetables. Cook them all on Sunday in about 90 minutes. Portion into containers. A week of lunches and dinners for one person runs $25-45 depending on your protein choices."
 affiliate_disclaimer: true
+sources:
+  - name: "FoodSafety.gov — Safe Minimum Internal Temperatures"
+    url: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+  - name: "FoodSafety.gov — Cold Food Storage Chart"
+    url: "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+  - name: "USDA FSIS — Leftovers and Food Safety"
+    url: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+  - name: "USDA ERS — Food Price Outlook"
+    url: "https://www.ers.usda.gov/data-products/food-price-outlook"
 ---
 
 Most meal prep content is built for families. The recipes feed six, the shopping lists assume a Costco run, and the advice involves clearing out your entire Sunday afternoon.
@@ -30,14 +39,16 @@ Forget recipes for a minute. The most sustainable solo meal prep is built on thr
 - One grain (rice, pasta, oats, or quinoa)
 - Two vegetables (whatever's cheapest that week)
 
-That's it. You cook all three, portion them out, and rotate your sauces and seasonings across the week so it doesn't feel like leftovers.
+Cook all three, portion them out, and rotate your sauces and seasonings across the week so it doesn't feel like leftovers.
 
-The same chicken, rice, and broccoli tastes completely different with soy-ginger glaze on Monday, chipotle seasoning on Wednesday, and lemon-herb on Friday. The ingredients stay cheap. The meals don't feel repetitive.
+The same chicken, rice, and broccoli tastes completely different with soy-ginger glaze on Monday, chipotle seasoning on Wednesday, and lemon-herb on Friday. The base ingredients stay cheap. The meals don't feel repetitive.
 
 
 ## What it actually costs
 
-Here's a realistic breakdown at a standard US grocery store. Prices are approximate as of mid-2025.
+{% include price-note.html date="June 2025" %}
+
+Here's a realistic breakdown based on national average grocery store prices. According to the [USDA Economic Research Service](https://www.ers.usda.gov/data-products/food-price-outlook), food-at-home prices rose 2.3% in 2025 compared to 2024 — so if you're reading this later, adjust accordingly. Check your local store's weekly circular for the most current prices in your area.
 
 | Item | Quantity | Cost | Meals |
 |------|----------|------|-------|
@@ -48,12 +59,12 @@ Here's a realistic breakdown at a standard US grocery store. Prices are approxim
 | Canned tuna | 3 cans | $3.00 | 3 lunches |
 | Oats | 2 cups dry | $0.50 | 4 breakfasts |
 | Cabbage | half head | $0.90 | 3-4 sides |
-| Olive oil, garlic, spices | pantry | $1.50 | all week |
+| Olive oil, garlic, spices | pantry staples | $1.50 | all week |
 | **Total** | | **~$14.50** | **~17 meals** |
 
-Add bread, fruit, snacks, and a few extras and you're still under $40. That's around $2.30 per meal.
+Add bread, fruit, snacks, and a few extras and you're still under $40 for the week. That works out to around $2.30 per meal.
 
-Bone-in chicken thighs are the best budget protein going. Cheaper than breasts, more flavorful, harder to dry out. If your store has them on sale, buy double and freeze half.
+Bone-in chicken thighs are the best budget protein going. Cheaper than breasts, more flavorful, harder to dry out. When your store has them on sale, buy double and freeze half.
 
 
 ## The 90-minute Sunday routine
@@ -64,17 +75,36 @@ The key is cooking everything at the same time, not one thing after another.
 
 Preheat the oven to 400°F. Season your chicken thighs with salt, pepper, garlic powder, and a drizzle of olive oil. Put them in the oven. They need 35-40 minutes and zero attention from you while they cook.
 
-Get your rice going immediately after. Two cups dry rice, four cups water, bring to a boil, reduce heat, cover. Same timeline as the chicken.
+Get your rice going right after. Two cups dry rice, four cups water, bring to a boil, reduce heat, cover. Same timeline as the chicken.
 
-While both are going, prep your vegetables. Cabbage wedges on one side of a sheet pan, frozen broccoli on the other. Toss with olive oil and salt. That pan goes in the oven for the last 20 minutes of the chicken's cook time.
+While both are running, prep your vegetables. Cabbage wedges on one side of a sheet pan, frozen broccoli on the other. Toss with olive oil and salt. That pan goes into the oven for the last 20 minutes of the chicken's cook time.
 
-Hard boil six eggs for grab-and-go breakfasts. They keep in the shell for a week.
+Hard-boil six eggs for grab-and-go breakfasts.
+
+{% include safe-temp.html food="chicken" %}
+
+**Check your chicken before pulling it**
+
+Color is not a reliable indicator of doneness. A food thermometer is the only way to know for certain. Insert it into the thickest part of the thigh, away from the bone. Once it reads 165°F, you're done.
 
 **Portion while things cool**
 
-Once everything's cooked, give it 10 minutes to cool and then divide into containers. Chicken and rice together if you have enough containers, or keep them separate so you can mix and match. Label by day or meal type.
+Give everything 10 minutes to cool, then divide into containers. Chicken and rice together if you have enough containers, or keep them separate so you can mix and match through the week. Label by day or meal type.
 
-Total active cooking time: about 20 minutes. The rest is the oven and stovetop doing the work.
+Total active cooking time: about 20 minutes. The oven and stovetop do the rest.
+
+
+## How long your prepped food keeps
+
+According to the [FoodSafety.gov Cold Food Storage Chart](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts), cooked meat and poultry keeps **3 to 4 days** in the refrigerator at 40°F or below. Cooked rice and grains also fall in this window. Roasted vegetables are similar — aim to eat them within 3 to 4 days too.
+
+Your fridge needs to stay at or below 40°F. Bacteria multiply rapidly between 40°F and 140°F, which the USDA calls the "danger zone." A fridge thermometer costs a few dollars and is worth having.
+
+Anything you won't eat within 4 days should go straight into the freezer after cooking, not after it's been sitting in the fridge for three days. [USDA FSIS guidance on leftovers](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) also notes you should refrigerate food within 2 hours of cooking — 1 hour if your kitchen is above 90°F.
+
+When you reheat:
+
+{% include safe-temp.html food="leftovers" %}
 
 
 ## The containers question
@@ -97,18 +127,11 @@ For a full breakdown of what's worth buying, see our [meal prep containers guide
 
 ## Three mistakes that kill solo meal prep
 
-**Making too many different things.** Five different meals sounds good in theory. In practice, it means five times the prep work, five sets of containers, and usually at least one thing you never get around to eating. Start with one protein and two vegetables. Rotate the sauces.
+**Making too many different things.** Five different meals sounds good in theory. In practice it means five times the prep work and usually at least one thing you never get around to eating. Start with one protein and two vegetables. Rotate the sauces.
 
-**Buying fresh herbs.** A bunch of parsley costs $1.50 and you'll use three sprigs. Dried herbs do the same job, cost a fraction as much, and last months. The only exception is cilantro if you use a lot of it.
+**Buying fresh herbs.** A bunch of parsley costs $1.50 and you'll use three sprigs. Dried herbs do the same job, cost a fraction as much, and last months. The only exception is cilantro if you go through a lot of it.
 
-**Ignoring the freezer.** When you prep a batch, freeze half in individual portions. Two weeks from now you have a free ready meal with zero extra work. This is especially useful for proteins, which freeze well and save you money when there's a sale.
-
-
-## How long prepped food keeps
-
-Cooked proteins and grains last four to five days in the fridge in sealed containers. Roasted vegetables are best within three to four days. Beyond that, freeze it immediately after cooking, not after it's been sitting in the fridge for four days.
-
-Never let prepped food sit more than five days without eating it or freezing it.
+**Ignoring the freezer.** When you prep a batch, freeze half in individual portions. Two weeks from now you have a free ready meal with zero extra work. This works especially well for proteins, which freeze well and let you stock up during sales.
 
 
 ## Common questions
@@ -119,22 +142,24 @@ $30-50 per week covers everything including breakfasts and lunches if you choose
 
 ### How do I stop getting bored eating the same food?
 
-The sauce is the variable, not the protein or grain. Keep four or five sauces in rotation: something soy-based, something creamy (tahini or Greek yogurt), something spicy, something citrusy. The base ingredients can stay the same for months. You'll barely notice.
+The sauce is the variable, not the protein or grain. Keep four or five in rotation: something soy-based, something creamy (tahini or Greek yogurt), something spicy, something citrusy. The base ingredients can stay the same for months and you'll barely notice.
 
-### Can I meal prep without a lot of space or equipment?
+### Can I meal prep without a lot of equipment?
 
-One sheet pan, one pot, one oven, and five containers. That's the full setup. You don't need an Instant Pot, a sous vide circulator, or a stand mixer. The 90-minute method above works in the smallest kitchen.
+One sheet pan, one pot, one oven, and five containers. That's all you need. A food thermometer is worth adding — they run $10-15 and remove the guesswork on whether your chicken is cooked through.
 
-### What if I want to lose weight or hit protein targets?
+### How do I know if prepped food has gone bad?
 
-The same framework applies. Swap chicken thighs for chicken breast if you want lower fat. Add a can of chickpeas or some Greek yogurt to hit higher protein targets without spending more. The portion-and-container method makes hitting macros easy because everything is already measured.
+The USDA recommends not relying on smell or appearance alone — some bacteria that cause food poisoning don't change how food looks or smells. The safest approach is to follow the storage timelines above and when in doubt, throw it out. If food has been in the fridge more than 4 days, don't eat it.
 
 
 ## Start this week
 
-Pick one protein, one grain, two vegetables. Go grocery shopping. Block off 90 minutes on Sunday.
+Pick one protein, one grain, two vegetables. Buy a food thermometer if you don't have one. Block off 90 minutes on Sunday.
 
-That's all there is to it the first time. You don't need to optimize anything yet. Just do one prep session, see how the week goes, and adjust from there.
+Do one prep session, see how the week goes, and adjust from there.
 
 ---
+*Sources: [FoodSafety.gov Safe Minimum Internal Temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) (last reviewed November 2024) · [FoodSafety.gov Cold Food Storage Chart](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts) (last reviewed September 2023) · [USDA FSIS Leftovers and Food Safety](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) · [USDA ERS Food Price Outlook](https://www.ers.usda.gov/data-products/food-price-outlook) (price trend data) · Grocery prices are national averages as of June 2025 and will vary by location and store.*
+
 *For more on stretching your grocery budget, see our guide to [eating healthy on $50 a week](/budget-tips/eat-healthy-50-dollars-week/).*

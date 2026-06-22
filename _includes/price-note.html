@@ -1,0 +1,17 @@
+<!--
+  USAGE: {% include price-note.html date="June 2025" %}
+  The date parameter should reflect when prices were checked.
+  Optional: {% include price-note.html date="June 2025" region="national average" %}
+-->
+
+{% assign price_date = include.date | default: "the time of writing" %}
+{% assign price_region = include.region | default: "national average" %}
+
+<aside class="price-note-box">
+  <div class="price-note-icon" aria-hidden="true">📍</div>
+  <div class="price-note-content">
+    <strong class="price-note-label">A note on prices</strong>
+    <p>The prices in this article are estimates based on {{ price_region }} grocery store data from {{ price_date }}. Your actual costs will vary depending on where you live, which stores you shop at, and current market conditions.</p>
+    <p>Food prices change over time. According to the <a href="https://www.ers.usda.gov/data-products/food-price-outlook" target="_blank" rel="noopener">USDA Economic Research Service Food Price Outlook</a>, food-at-home prices rose 2.3% in 2025 compared to 2024. Prices in your area may be higher or lower than the figures shown here. Always check your local store's current prices before budgeting.</p>
+  </div>
+</aside>

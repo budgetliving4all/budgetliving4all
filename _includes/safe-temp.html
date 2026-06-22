@@ -1,0 +1,51 @@
+<!-- 
+  USAGE: {% include safe-temp.html food="chicken" %}
+  Options for food parameter:
+    chicken / poultry  — 165°F, no rest needed
+    beef-steak         — 145°F, 3-min rest
+    ground-beef        — 160°F, no rest
+    pork               — 145°F, 3-min rest
+    ground-pork        — 160°F, no rest
+    fish               — 145°F, no rest
+    eggs               — cook until firm
+    leftovers          — 165°F, no rest
+-->
+
+{% assign food_type = include.food | downcase %}
+
+<aside class="safe-temp-box">
+  <div class="safe-temp-icon" aria-hidden="true">🌡️</div>
+  <div class="safe-temp-content">
+    <strong class="safe-temp-label">Food safety note</strong>
+
+    {% if food_type == "chicken" or food_type == "poultry" or food_type == "turkey" %}
+    <p>According to <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener">FoodSafety.gov</a>, all poultry — including chicken thighs, breasts, and ground chicken — must reach an internal temperature of <strong>165°F (74°C)</strong> before eating. Use a food thermometer inserted into the thickest part of the meat, away from bone.</p>
+
+    {% elsif food_type == "beef-steak" or food_type == "beef" %}
+    <p>According to <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener">FoodSafety.gov</a>, beef steaks, roasts, and chops should reach a minimum internal temperature of <strong>145°F (63°C)</strong>, then rest for at least 3 minutes before eating.</p>
+
+    {% elsif food_type == "ground-beef" or food_type == "ground beef" %}
+    <p>According to <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener">FoodSafety.gov</a>, ground beef must reach an internal temperature of <strong>160°F (71°C)</strong>. No rest time required. Color alone is not a reliable indicator — always use a thermometer.</p>
+
+    {% elsif food_type == "pork" %}
+    <p>According to <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener">FoodSafety.gov</a>, pork steaks, chops, and roasts should reach <strong>145°F (63°C)</strong> and rest for at least 3 minutes before eating.</p>
+
+    {% elsif food_type == "ground-pork" or food_type == "ground pork" %}
+    <p>According to <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener">FoodSafety.gov</a>, ground pork must reach an internal temperature of <strong>160°F (71°C)</strong> before eating.</p>
+
+    {% elsif food_type == "fish" or food_type == "seafood" %}
+    <p>According to <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener">FoodSafety.gov</a>, fish should reach an internal temperature of <strong>145°F (63°C)</strong>, or cook until the flesh is no longer translucent and separates easily with a fork.</p>
+
+    {% elsif food_type == "eggs" %}
+    <p>According to <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener">FoodSafety.gov</a>, cook eggs until both the yolk and white are firm. Egg dishes such as frittatas and quiches should reach <strong>160°F (71°C)</strong>.</p>
+
+    {% elsif food_type == "leftovers" or food_type == "reheating" %}
+    <p>According to <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener">FoodSafety.gov</a>, all leftovers should be reheated to an internal temperature of <strong>165°F (74°C)</strong> before eating, regardless of the original food type.</p>
+
+    {% else %}
+    <p>According to <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener">FoodSafety.gov</a>, always use a food thermometer to confirm food has reached a safe internal temperature before eating. Never rely on color or texture alone.</p>
+    {% endif %}
+
+    <p class="safe-temp-storage">For storage: cooked meat and poultry keeps <strong>3 to 4 days</strong> in the refrigerator at 40°F or below. <a href="https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts" target="_blank" rel="noopener">Full storage chart at FoodSafety.gov.</a></p>
+  </div>
+</aside>
