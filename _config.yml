@@ -1,7 +1,7 @@
 title: Budget Meal Prep
 description: Practical meal prep guides and budget cooking tips to eat well for less.
-url: "https://github.com/budgetliving4all.github.io"
-baseurl: ""
+url: "https://budgetliving4all.github.io/budgetmealprep/"
+baseurl: "/budgetmealprep"
 
 author:
   name: Budget Living 4 All
