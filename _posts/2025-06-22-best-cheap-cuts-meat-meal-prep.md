@@ -7,10 +7,10 @@ date: 2025-06-22 09:00:00 +0000
 last_modified_at: 2025-06-22 09:00:00 +0000
 categories: [meal-prep]
 tags: [meal prep, budget cooking, beef, chicken, pork, protein]
-image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=1200&auto=format&fit=crop&q=80"
-image_alt: "Raw chicken thighs and drumsticks on a wooden cutting board"
-image_credit: "Photo by Eiliv Aceron on Unsplash"
-image_credit_url: "https://unsplash.com/photos/raw-meat-on-brown-wooden-cutting-board-gOoSzvEQmEo"
+image: "https://images.unsplash.com/photo-1759493321741-883fbf9f433c?w=1200&auto=format&fit=crop&q=80"
+image_alt: "Raw chicken pieces with vegetables on a wooden cutting board"
+image_credit: "Photo by Satmar Meats on Unsplash"
+image_credit_url: "https://unsplash.com/photos/raw-chicken-pieces-with-vegetables-on-a-wooden-board-1pj56A6OQgA"
 read_time: 9
 author: Budget Living 4 All
 quick_answer: "Bone-in chicken thighs, chicken drumsticks, pork shoulder, chuck roast, and ground beef are consistently the cheapest cuts that work well for meal prep. All freeze well, reheat well, and are widely available."

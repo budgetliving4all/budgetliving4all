@@ -4,18 +4,19 @@ layout: default
 <section class="hero">
   <div class="container">
     <h1>Spend less.<br>Live well.</h1>
-    <p class="hero-sub">Practical guides on meal prep, grocery budgets, and everyday frugal living. No fluff.</p>
+    <p class="hero-sub">Practical guides on meal prep, grocery budgets, and frugal living. No fluff.</p>
   </div>
 </section>
 
 <section class="container posts-section">
   <h2 class="section-title">Latest guides</h2>
+  {% if site.posts.size > 0 %}
   <div class="post-grid">
-    {% for post in paginator.posts %}
+    {% for post in site.posts limit:9 %}
     <article class="post-card">
       {% if post.image %}
       <a href="{{ post.url | relative_url }}" class="card-img-link">
-        <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" class="post-card-image" loading="lazy" />
+        <img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title }}" class="post-card-image" loading="lazy" />
       </a>
       {% endif %}
       <div class="post-card-body">
@@ -30,12 +31,7 @@ layout: default
     </article>
     {% endfor %}
   </div>
-
-  {% if paginator.total_pages > 1 %}
-  <nav class="pagination">
-    {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}" class="btn">Newer</a>{% endif %}
-    <span class="page-count">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}" class="btn">Older</a>{% endif %}
-  </nav>
+  {% else %}
+  <p style="color: var(--text-muted);">Guides coming soon.</p>
   {% endif %}
 </section>
