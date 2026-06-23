@@ -14,7 +14,7 @@ image_credit_url: "https://unsplash.com/photos/raw-chicken-pieces-with-vegetable
 read_time: 9
 author: Budget Living 4 All
 quick_answer: "Bone-in chicken thighs, chicken drumsticks, pork shoulder, chuck roast, and ground beef are consistently the cheapest cuts that work well for meal prep. All freeze well, reheat well, and are widely available."
-affiliate_disclaimer: false
+affiliate_disclaimer: true
 sources:
   - name: "USDA ERS - Food Price Outlook: Summary Findings"
     url: "https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings"
@@ -27,6 +27,8 @@ sources:
   - name: "BLS - Consumer Price Index for Food"
     url: "https://www.bls.gov/cpi/tables/supplemental-files/home.htm"
 ---
+<p class="affiliate-notice"><strong>Heads up:</strong> Some links in this article are affiliate links. We earn a small commission if you buy through them, at no cost to you. We only link to products we'd actually recommend.</p>
+
 
 Meat is usually the most expensive item on a grocery list, and prices have been climbing. Per [USDA ERS Food Price Outlook data](https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings), beef prices were 14.8% higher in April 2026 than in April 2025, and are projected to rise another 12.1% through 2026 as the U.S. cattle herd continues to shrink. Pork and poultry have been more stable, up 2.3% and 0.5% respectively over the same period.
 
@@ -149,6 +151,13 @@ Per the [FoodSafety.gov Cold Food Storage Chart](https://www.foodsafety.gov/food
 - Cooked meat: 3-4 days in the fridge, 2-6 months frozen
 
 If you are not cooking something within two days of buying it, freeze it.
+
+
+## A thermometer
+
+Every cut in this article requires one. Color is not a reliable way to tell if meat is done, and the consequence of undercooking is food poisoning. A thermometer costs $10-15 and lasts years.
+
+{% include thermometer-product.html %}
 
 
 ## Questions

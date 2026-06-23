@@ -15,7 +15,6 @@ read_time: 8
 author: Budget Living 4 All
 quick_answer: "Pick one protein, one grain, and two vegetables. Cook everything on Sunday in about 90 minutes, then portion into containers. A week of lunches and dinners for one person runs $25-45 depending on your protein choices."
 affiliate_disclaimer: true
-sources:
   - name: "FoodSafety.gov - Safe Minimum Internal Temperatures"
     url: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
   - name: "FoodSafety.gov - Cold Food Storage Chart"
@@ -144,7 +143,11 @@ Batch cooking is not the right fit for everyone. Some people do better prepping 
 
 ### What equipment do I actually need?
 
-One sheet pan, one pot, five containers, and a food thermometer. That covers it. The thermometer matters for food safety and costs $10-15.
+One sheet pan, one pot, five containers, and a food thermometer. That covers it.
+
+{% include thermometer-product.html %}
+
+The thermometer matters for food safety and costs $10-15.
 
 ### How do I know if something has gone bad?
 
