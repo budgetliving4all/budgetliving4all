@@ -13,6 +13,7 @@ author:
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
+excerpt_separator: "<!--more-->"
 
 plugins:
   - jekyll-feed

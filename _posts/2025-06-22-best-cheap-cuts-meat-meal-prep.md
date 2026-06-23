@@ -14,6 +14,7 @@ image_credit_url: "https://unsplash.com/photos/raw-chicken-pieces-with-vegetable
 read_time: 9
 author: Budget Living 4 All
 quick_answer: "Bone-in chicken thighs, chicken drumsticks, pork shoulder, chuck roast, and ground beef are consistently the cheapest cuts that work well for meal prep. All freeze well, reheat well, and are widely available."
+excerpt: "Which cuts of beef, pork, and chicken give you the most food for the least money — and how to cook them so they actually turn out well."
 affiliate_disclaimer: true
 sources:
   - name: "USDA ERS - Food Price Outlook: Summary Findings"

@@ -14,6 +14,7 @@ image_credit_url: "https://unsplash.com/photos/six-full-clear-glass-jars-on-whit
 read_time: 8
 author: Budget Living 4 All
 quick_answer: "Pick one protein, one grain, and two vegetables. Cook everything on Sunday in about 90 minutes, then portion into containers. A week of lunches and dinners for one person runs $25-45 depending on your protein choices."
+excerpt: "How to meal prep for one person on $30-45 a week — a 90-minute Sunday routine, real grocery costs, and food safety guidance from USDA sources."
 affiliate_disclaimer: true
 sources:
   - name: "FoodSafety.gov - Safe Minimum Internal Temperatures"

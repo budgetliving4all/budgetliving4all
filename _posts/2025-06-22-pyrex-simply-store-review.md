@@ -7,13 +7,14 @@ date: 2025-06-22 10:00:00 +0000
 last_modified_at: 2025-06-22 10:00:00 +0000
 categories: [reviews]
 tags: [meal prep, containers, glass, kitchen gear, review]
-image: "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1200&auto=format&fit=crop&q=80"
-image_alt: "Glass food storage containers with colorful lids stacked on a kitchen shelf"
-image_credit: "Photo by Ella Olsson on Unsplash"
-image_credit_url: "https://unsplash.com/photos/clear-glass-jar-on-white-surface-P4jRJYN33wE"
+image: "https://images.unsplash.com/photo-1621318551436-68573392fd5c?w=1200&auto=format&fit=crop&q=80"
+image_alt: "Assorted dry goods stored in clear glass jars on a shelf"
+image_credit: "Photo by Jas Min on Unsplash"
+image_credit_url: "https://unsplash.com/photos/assorted-spices-in-clear-glass-jars-Zjyx5CYVcho"
 read_time: 6
 author: Budget Living 4 All
-quick_answer: "The Pyrex Simply Store 18-piece set is a solid choice for meal prep. The glass holds up well over time and does not stain or absorb smells. The lids are the weak point — they are not liquid-tight and crack faster than the glass if run through the dishwasher repeatedly."
+quick_answer: "The Pyrex Simply Store 18-piece set is a solid choice for meal prep. The glass holds up well over time and does not stain or absorb smells. The lids are the weak point — they are not liquid-tight and crack faster if run through the dishwasher repeatedly."
+excerpt: "A practical look at the Pyrex Simply Store 18-piece set — what works, what does not, and whether it is the right choice for meal prep."
 affiliate_disclaimer: true
 ---
 
