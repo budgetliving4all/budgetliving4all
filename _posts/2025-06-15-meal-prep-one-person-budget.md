@@ -20,8 +20,12 @@ sources:
     url: "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
   - name: "USDA FSIS — Leftovers and Food Safety"
     url: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
-  - name: "USDA ERS — Food Price Outlook"
-    url: "https://www.ers.usda.gov/data-products/food-price-outlook"
+  - name: "USDA ERS — Food Price Outlook: Summary Findings"
+    url: "https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings/"
+  - name: "USDA ERS — Food-at-Home Monthly Area Prices"
+    url: "https://www.ers.usda.gov/data-products/food-at-home-monthly-area-prices/"
+  - name: "BLS — Consumer Price Index for Food"
+    url: "https://www.bls.gov/cpi/tables/supplemental-files/home.htm"
 ---
 
 Most meal prep content is built for families. The recipes feed six, the shopping lists assume a Costco run, and the advice involves clearing out your entire Sunday afternoon.
@@ -48,7 +52,7 @@ The same chicken, rice, and broccoli tastes completely different with soy-ginger
 
 {% include price-note.html date="June 2025" %}
 
-Here's a realistic breakdown based on national average grocery store prices. According to the [USDA Economic Research Service](https://www.ers.usda.gov/data-products/food-price-outlook), food-at-home prices rose 2.3% in 2025 compared to 2024 — so if you're reading this later, adjust accordingly. Check your local store's weekly circular for the most current prices in your area.
+Here's a realistic breakdown based on national average grocery store prices, cross-referenced against [USDA ERS Food Price Outlook data](https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings/) and [BLS Consumer Price Index food category data](https://www.bls.gov/cpi/tables/supplemental-files/home.htm). Prices are approximate as of June 2025. What you pay in rural Mississippi and what someone pays in San Francisco will be very different numbers — check your local store's weekly circular before you budget.
 
 | Item | Quantity | Cost | Meals |
 |------|----------|------|-------|
@@ -160,6 +164,6 @@ Pick one protein, one grain, two vegetables. Buy a food thermometer if you don't
 Do one prep session, see how the week goes, and adjust from there.
 
 ---
-*Sources: [FoodSafety.gov Safe Minimum Internal Temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) (last reviewed November 2024) · [FoodSafety.gov Cold Food Storage Chart](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts) (last reviewed September 2023) · [USDA FSIS Leftovers and Food Safety](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) · [USDA ERS Food Price Outlook](https://www.ers.usda.gov/data-products/food-price-outlook) (price trend data) · Grocery prices are national averages as of June 2025 and will vary by location and store.*
+*Sources: [FoodSafety.gov — Safe Minimum Internal Temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) (last reviewed November 2024) · [FoodSafety.gov — Cold Food Storage Chart](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts) (last reviewed September 2023) · [USDA FSIS — Leftovers and Food Safety](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) · [USDA ERS — Food Price Outlook: Summary Findings](https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings/) (updated monthly) · [USDA ERS — Food-at-Home Monthly Area Prices](https://www.ers.usda.gov/data-products/food-at-home-monthly-area-prices/) · [BLS — Consumer Price Index for Food](https://www.bls.gov/cpi/tables/supplemental-files/home.htm) · Grocery prices are national averages as of June 2025 and will vary by location and store.*
 
 *For more on stretching your grocery budget, see our guide to [eating healthy on $50 a week](/budget-tips/eat-healthy-50-dollars-week/).*

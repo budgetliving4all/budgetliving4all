@@ -1,7 +1,6 @@
 <!--
   USAGE: {% include price-note.html date="June 2025" %}
-  The date parameter should reflect when prices were checked.
-  Optional: {% include price-note.html date="June 2025" region="national average" %}
+  Optional: {% include price-note.html date="June 2025" region="Midwest" %}
 -->
 
 {% assign price_date = include.date | default: "the time of writing" %}
@@ -11,7 +10,7 @@
   <div class="price-note-icon" aria-hidden="true">📍</div>
   <div class="price-note-content">
     <strong class="price-note-label">A note on prices</strong>
-    <p>The prices in this article are estimates based on {{ price_region }} grocery store data from {{ price_date }}. Your actual costs will vary depending on where you live, which stores you shop at, and current market conditions.</p>
-    <p>Food prices change over time. According to the <a href="https://www.ers.usda.gov/data-products/food-price-outlook" target="_blank" rel="noopener">USDA Economic Research Service Food Price Outlook</a>, food-at-home prices rose 2.3% in 2025 compared to 2024. Prices in your area may be higher or lower than the figures shown here. Always check your local store's current prices before budgeting.</p>
+    <p>The prices below are estimates based on {{ price_region }} grocery store data from {{ price_date }}. Your actual costs will vary by location, store, and season. Always check your local store's weekly circular before budgeting.</p>
+    <p>Price data is sourced from the <a href="https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings/" target="_blank" rel="noopener">USDA Economic Research Service Food Price Outlook</a> and the <a href="https://www.bls.gov/cpi/tables/supplemental-files/home.htm" target="_blank" rel="noopener">Bureau of Labor Statistics Consumer Price Index for food</a>. Per USDA ERS, food-at-home prices rose 2.3% in 2025 compared to 2024 — if you're reading this later, your prices may be higher.</p>
   </div>
 </aside>
