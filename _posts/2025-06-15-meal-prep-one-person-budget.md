@@ -113,20 +113,22 @@ When you reheat:
 
 ## The containers question
 
-You need at least five airtight containers, one per weekday. Glass lasts longer and doesn't absorb smells. Plastic is lighter and cheaper. Either works.
+You need at least five containers, one per weekday. Glass lasts longer, doesn't absorb smells, and is safer to reheat in — it won't leach anything into your food. Plastic is lighter and cheaper. Either works for getting started.
 
-The one thing worth spending money on: lids that actually seal. Cheap containers with bad lids mean leaks in your bag and food that dries out faster in the fridge.
+The most consistently recommended set across independent reviewers is the Pyrex Simply Store 18-piece. It has nearly 20,000 Amazon reviews and a 4.6 rating, which for a kitchen product with that many reviews is a meaningful signal. The glass itself is excellent — oven, microwave, freezer, and dishwasher safe, and it genuinely doesn't stain or absorb odors after years of use.
+
+One honest caveat worth knowing before you buy: the lids are not fully airtight. They fit snugly but won't seal a liquid if you tip them sideways. Fine for meal prep in the fridge, not ideal if you're putting soup in your bag. Reviewers also note the lids can crack in the dishwasher over time — hand washing them extends their life significantly.
 
 <div class="product-box">
-  <img src="/assets/images/prep-containers.jpg" alt="Glass meal prep containers with locking lids" />
+  <img src="/assets/images/pyrex-simply-store.jpg" alt="Pyrex Simply Store 18-piece glass food storage set with colored lids" />
   <div class="product-info">
-    <h4>Glass meal prep containers, 10-piece set</h4>
-    <p>Locking airtight lids, oven-safe to 400°F, microwave and dishwasher safe. Holds one full meal portion. Around $25-30 for a set of 10.</p>
-    <a href="https://amazon.com/dp/B07D4MXSDT?tag=YOUR-AFFILIATE-TAG" class="btn-affiliate" rel="nofollow sponsored" target="_blank">Check price on Amazon</a>
+    <h4>Pyrex Simply Store 18-Piece Glass Storage Set</h4>
+    <p>4.6 stars · 19,959+ Amazon reviews. Nine sizes from 1-cup to 7-cup. Oven, microwave, freezer, and dishwasher safe glass. BPA-free lids. Made in the USA with a 2-year warranty. Note: lids are snug but not fully liquid-tight — hand wash to extend their life.</p>
+    <a href="https://www.amazon.com/dp/B0157G34AY?tag=budgetliving4-20" class="btn-affiliate" rel="nofollow sponsored" target="_blank">Check price on Amazon</a>
   </div>
 </div>
 
-For a full breakdown of what's worth buying, see our [meal prep containers guide](/reviews/best-meal-prep-containers-budget/).
+For a full breakdown of container options at different price points, see our [meal prep containers guide](/reviews/best-meal-prep-containers-budget/).
 
 
 ## Three mistakes that kill solo meal prep
@@ -164,6 +166,6 @@ Pick one protein, one grain, two vegetables. Buy a food thermometer if you don't
 Do one prep session, see how the week goes, and adjust from there.
 
 ---
-*Sources: [FoodSafety.gov — Safe Minimum Internal Temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) (last reviewed November 2024) · [FoodSafety.gov — Cold Food Storage Chart](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts) (last reviewed September 2023) · [USDA FSIS — Leftovers and Food Safety](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) · [USDA ERS — Food Price Outlook: Summary Findings](https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings/) (updated monthly) · [USDA ERS — Food-at-Home Monthly Area Prices](https://www.ers.usda.gov/data-products/food-at-home-monthly-area-prices/) · [BLS — Consumer Price Index for Food](https://www.bls.gov/cpi/tables/supplemental-files/home.htm) · Grocery prices are national averages as of June 2025 and will vary by location and store.*
+*Sources: [FoodSafety.gov — Safe Minimum Internal Temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) (last reviewed November 2024) · [FoodSafety.gov — Cold Food Storage Chart](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts) (last reviewed September 2023) · [USDA FSIS — Leftovers and Food Safety](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) · [USDA ERS — Food Price Outlook: Summary Findings](https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings/) (updated monthly) · [USDA ERS — Food-at-Home Monthly Area Prices](https://www.ers.usda.gov/data-products/food-at-home-monthly-area-prices/) · [BLS — Consumer Price Index for Food](https://www.bls.gov/cpi/tables/supplemental-files/home.htm) · Grocery prices are national averages as of June 2025 and will vary by location and store. · Product ratings and review counts sourced from [Amazon.com](https://www.amazon.com/dp/B0157G34AY) as of June 2025.*
 
 *For more on stretching your grocery budget, see our guide to [eating healthy on $50 a week](/budget-tips/eat-healthy-50-dollars-week/).*
