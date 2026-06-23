@@ -15,6 +15,7 @@ read_time: 8
 author: Budget Living 4 All
 quick_answer: "Pick one protein, one grain, and two vegetables. Cook everything on Sunday in about 90 minutes, then portion into containers. A week of lunches and dinners for one person runs $25-45 depending on your protein choices."
 affiliate_disclaimer: true
+sources:
   - name: "FoodSafety.gov - Safe Minimum Internal Temperatures"
     url: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
   - name: "FoodSafety.gov - Cold Food Storage Chart"
