@@ -44,6 +44,18 @@ https://www.amazon.com/dp/[ASIN]?tag=budgetliving4-20
 |---------|------|-------|---------|----------|
 | Pyrex Simply Store 18-Piece Glass Storage Set | B0157G34AY | 4.6 | 19,959+ | June 2025 |
 
+## Getting the product image
+
+Amazon does not allow hotlinking their product images. To get the image for a product box:
+
+1. Go to the product's Amazon page
+2. Right-click the main product image and save it
+3. Name it clearly: e.g. `pyrex-simply-store.jpg`
+4. Save it to `assets/images/` in the repo
+5. Reference it in the product box as `{{ '/assets/images/filename.jpg' | relative_url }}`
+
+This is permitted under Amazon's affiliate program terms for the purpose of promoting products you are linking to.
+
 ## Process for each new article
 1. Search Amazon for the product category
 2. Filter by 4+ stars, sort by review count

@@ -22,6 +22,17 @@ layout: default
     </div>
   </header>
 
+  {% if page.image %}
+  <div class="post-hero">
+    <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}" class="hero-image" itemprop="image" />
+    {% if page.image_credit %}
+    <p class="image-credit">
+      {% if page.image_credit_url %}<a href="{{ page.image_credit_url }}" target="_blank" rel="noopener">{{ page.image_credit }}</a>{% else %}{{ page.image_credit }}{% endif %}
+    </p>
+    {% endif %}
+  </div>
+  {% endif %}
+
   <div class="post-body container">
     <div class="post-content" itemprop="articleBody">
       {% if page.quick_answer %}
@@ -31,12 +42,6 @@ layout: default
     </div>
     <aside class="post-sidebar">{% include sidebar.html %}</aside>
   </div>
-
-  {% if page.affiliate_disclaimer %}
-  <div class="container">
-    <p class="affiliate-notice"><strong>Heads up:</strong> Some links in this article are affiliate links. We earn a small commission if you buy through them, at no cost to you. We only link to products we'd actually recommend.</p>
-  </div>
-  {% endif %}
 
 </article>
 

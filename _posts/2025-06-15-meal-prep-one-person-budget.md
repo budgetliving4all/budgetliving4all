@@ -7,8 +7,10 @@ date: 2025-06-15 09:00:00 +0000
 last_modified_at: 2025-06-15 09:00:00 +0000
 categories: [meal-prep]
 tags: [meal prep, budget cooking, beginner, single serving, weekly prep]
-image: /assets/images/meal-prep-one-person.jpg
-image_alt: "Five meal prep containers with portioned chicken, rice, and vegetables"
+image: "https://images.unsplash.com/photo-1543352632-fea6d4f83e78?w=1200&auto=format&fit=crop&q=80"
+image_alt: "Six glass meal prep jars filled with oatmeal, hummus, chia pudding and rice on a white surface"
+image_credit: "Photo by Ella Olsson on Unsplash"
+image_credit_url: "https://unsplash.com/photos/six-full-clear-glass-jars-on-white-surface-P4jRJYN33wE"
 read_time: 8
 author: Budget Living 4 All
 quick_answer: "Pick one protein, one grain, and two vegetables. Cook everything on Sunday in about 90 minutes, then portion into containers. A week of lunches and dinners for one person runs $25-45 depending on your protein choices."
@@ -110,7 +112,7 @@ You need at least five containers, one per weekday. Glass holds up longer and do
 The Pyrex Simply Store 18-piece set gets recommended consistently. It has close to 20,000 Amazon reviews and rates 4.6 out of 5. The glass holds up well over years of use. The lids are not fully airtight and can crack in the dishwasher over time, so hand washing them makes them last longer. Not ideal for soups, but fine for solid meal prep.
 
 <div class="product-box">
-  <img src="/assets/images/pyrex-simply-store.jpg" alt="Pyrex Simply Store 18-piece glass food storage set with colored lids" />
+  <img src="{{ '/assets/images/pyrex-simply-store.jpg' | relative_url }}" alt="Pyrex Simply Store 18-piece glass food storage set with colored lids" />
   <div class="product-info">
     <h4>Pyrex Simply Store 18-Piece Glass Storage Set</h4>
     <p>4.6 stars, 19,959+ Amazon reviews. Nine sizes from 1-cup to 7-cup. Oven, microwave, freezer, and dishwasher safe glass. BPA-free lids. Made in the USA. Lids are snug but not liquid-tight. Hand wash to extend their life.</p>
