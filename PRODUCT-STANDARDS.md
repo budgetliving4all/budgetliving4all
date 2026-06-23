@@ -43,7 +43,7 @@ https://www.amazon.com/dp/[ASIN]?tag=budgetliving4-20
 | Product | ASIN | Stars | Reviews | Verified |
 |---------|------|-------|---------|----------|
 | Pyrex Simply Store 18-Piece Glass Storage Set | B0157G34AY | 4.6 | 19,959+ | June 2025 |
-| ThermoPro TP03 Digital Instant Read Thermometer | B01IHHLB3W | 4.7 | 50,000+ | June 2025 |
+| ThermoPro TP03 Digital Instant Read Thermometer | B01IHHLB3W | 4.6 | 124,700+ | June 2025 |
 
 ## Getting the product image
 
