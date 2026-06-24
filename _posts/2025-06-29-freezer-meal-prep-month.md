@@ -8,10 +8,10 @@ date: 2025-06-29 10:00:00 +0000
 last_modified_at: 2025-06-29 10:00:00 +0000
 categories: [meal-prep]
 tags: [meal prep, freezer meals, batch cooking, budget cooking, monthly prep]
-image: "https://images.unsplash.com/photo-1737363625066-6c4c0598ecb7?w=1200&auto=format&fit=crop&q=80"
-image_alt: "An open refrigerator with organised food storage containers inside"
-image_credit: "Photo by Onur Burak Akin on Unsplash"
-image_credit_url: "https://unsplash.com/photos/an-open-refrigerator-with-a-jar-of-mustard-in-it-xocC8MJasM8"
+image: "https://images.unsplash.com/photo-1668838268173-816ee121ad4a?w=1200&auto=format&fit=crop&q=80"
+image_alt: "Meal prep containers filled with various portioned foods laid out on a surface"
+image_credit: "Photo by Richard R on Unsplash"
+image_credit_url: "https://unsplash.com/photos/a-buffet-of-food-Hmhn6g_Owg4"
 read_time: 10
 author: Budget Living 4 All
 quick_answer: "A month of freezer meals for one person costs $60-90 and takes 3-4 hours in one session. Cook proteins and soups in bulk, portion into freezer bags or containers, cool properly before freezing, and label everything. Most cooked meals keep 3-4 months frozen with no safety concerns."

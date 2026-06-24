@@ -9,9 +9,9 @@ last_modified_at: 2025-06-29 09:00:00 +0000
 categories: [budget-tips]
 tags: [budget cooking, grocery shopping, meal planning, weekly budget]
 image: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&auto=format&fit=crop&q=80"
-image_alt: "Fresh vegetables and groceries laid out on a wooden surface"
-image_credit: "Photo by Markus Spiske on Unsplash"
-image_credit_url: "https://unsplash.com/photos/assorted-fruits-and-vegetables-on-green-surface-70Rir5vB96U"
+image_alt: "Bunch of fresh vegetables including lettuce, peppers, and tomatoes at a market"
+image_credit: "Photo by nrd on Unsplash"
+image_credit_url: "https://unsplash.com/photos/bunch-of-vegetables-D6Tu_L3chLE"
 read_time: 9
 author: Budget Living 4 All
 quick_answer: "$50 a week for one person is workable. Prioritize cheap proteins like eggs, canned fish, and legumes. Build meals around grains and frozen or in-season vegetables. Minimize processed and pre-made items. Cook in batches."
