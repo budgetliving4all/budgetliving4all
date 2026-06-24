@@ -3,8 +3,11 @@ layout: post
 title: "Meal Prep for One Person on a Budget: The Complete Guide"
 description: "How to meal prep for one person on $30-45 a week. A real grocery breakdown, a 90-minute Sunday routine, and food safety guidance from USDA sources."
 target_keyword: "meal prep for one person on a budget"
+schema_type: HowTo
+faq: true
 date: 2025-06-15 09:00:00 +0000
 last_modified_at: 2025-06-15 09:00:00 +0000
+schema_type: HowTo
 categories: [meal-prep]
 tags: [meal prep, budget cooking, beginner, single serving, weekly prep]
 image: "https://images.unsplash.com/photo-1543352632-fea6d4f83e78?w=1200&auto=format&fit=crop&q=80"
@@ -14,7 +17,7 @@ image_credit_url: "https://unsplash.com/photos/six-full-clear-glass-jars-on-whit
 read_time: 8
 author: Budget Living 4 All
 quick_answer: "Pick one protein, one grain, and two vegetables. Cook everything on Sunday in about 90 minutes, then portion into containers. A week of lunches and dinners for one person runs $25-45 depending on your protein choices."
-excerpt: "How to meal prep for one person on $30-45 a week — a 90-minute Sunday routine, real grocery costs, and food safety guidance from USDA sources."
+excerpt: "How to meal prep for one person on $30-45 a week. A 90-minute Sunday routine, real grocery costs, and food safety guidance from USDA sources."
 affiliate_disclaimer: true
 sources:
   - name: "FoodSafety.gov - Safe Minimum Internal Temperatures"
@@ -29,7 +32,7 @@ sources:
     url: "https://www.bls.gov/cpi/tables/supplemental-files/home.htm"
 ---
 
-<p class="affiliate-notice"><strong>Heads up:</strong> Some links in this article are affiliate links. We earn a small commission if you buy through them, at no cost to you. We only link to products we'd actually recommend.</p>
+<p class="affiliate-notice"><strong>Heads up:</strong> Some links here are affiliate links. We earn a small commission if you buy through them, at no cost to you. We only link to products we'd actually recommend.</p>
 
 Most meal prep content assumes you're cooking for a family. The recipes feed six, the shopping lists reference bulk quantities, and the advice treats Sunday as a full day project.
 

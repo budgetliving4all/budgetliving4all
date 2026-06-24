@@ -149,7 +149,7 @@ Affiliate link format: `https://www.amazon.com/dp/[ASIN]?tag=budgetliving4-20`
 Every article with affiliate links gets this at the very top of the article body, before any other content:
 
 ```
-<p class="affiliate-notice"><strong>Heads up:</strong> Some links in this article are affiliate links. We earn a small commission if you buy through them, at no cost to you. We only link to products we'd actually recommend.</p>
+<p class="affiliate-notice"><strong>Heads up:</strong> Some links here are affiliate links. We earn a small commission if you buy through them, at no cost to you. We only link to products we'd actually recommend.</p>
 ```
 
 ---

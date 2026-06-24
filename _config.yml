@@ -1,6 +1,6 @@
 title: Budget Living 4 All
 tagline: Real strategies for spending less and living well.
-description: Practical guides on meal prep, frugal living, budget tips, and making the most of every dollar.
+description: Practical guides on meal prep, grocery budgets, and everyday frugal living. Real strategies, verified sources, no fluff.
 
 url: "https://budgetliving4all.github.io"
 baseurl: "/budgetliving4all"
@@ -15,6 +15,12 @@ highlighter: rouge
 permalink: /:categories/:title/
 excerpt_separator: "<!--more-->"
 
+# SEO
+lang: en_US
+twitter:
+  card: summary_large_image
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -24,6 +30,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - WRITING-GUIDE.md
+  - PRODUCT-STANDARDS.md
   - node_modules
 
 defaults:
@@ -33,16 +41,11 @@ defaults:
     values:
       layout: "post"
       author: "Budget Living 4 All"
-      image: "/assets/images/default-og.jpg"
 
-# Site sections — add new ones here as you grow
 sections:
   - name: Meal Prep
     path: /meal-prep/
-    description: Batch cooking guides that actually fit a real schedule and budget.
   - name: Budget Tips
     path: /budget-tips/
-    description: Grocery, household, and everyday spending strategies.
   - name: Reviews
     path: /reviews/
-    description: Honest takes on kitchen gear and tools worth buying.

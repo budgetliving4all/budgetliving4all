@@ -1,17 +1,52 @@
 ---
 layout: default
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.schema_type == 'Review' %}Review{% elsif page.schema_type == 'HowTo' %}HowTo{% else %}Article{% endif %}",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | escape }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | date_to_xmlschema | default: page.date | date_to_xmlschema }}",
+  "author": { "@type": "Organization", "name": "{{ site.title }}", "url": "{{ site.url }}{{ site.baseurl }}" },
+  "publisher": { "@type": "Organization", "name": "{{ site.title }}", "url": "{{ site.url }}{{ site.baseurl }}" },
+  "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | prepend: site.baseurl | prepend: site.url }}" }
+  {% if page.image %}, "image": "{{ page.image }}"{% endif %}
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}{{ site.baseurl }}/" },
+    {% if page.categories %}
+    { "@type": "ListItem", "position": 2, "name": "{{ page.categories | first | replace: '-', ' ' | capitalize }}", "item": "{{ site.url }}{{ site.baseurl }}/{{ page.categories | first }}/" },
+    { "@type": "ListItem", "position": 3, "name": "{{ page.title | escape }}", "item": "{{ page.url | prepend: site.baseurl | prepend: site.url }}" }
+    {% else %}
+    { "@type": "ListItem", "position": 2, "name": "{{ page.title | escape }}", "item": "{{ page.url | prepend: site.baseurl | prepend: site.url }}" }
+    {% endif %}
+  ]
+}
+</script>
+
 <article class="post" itemscope itemtype="https://schema.org/Article">
 
   <header class="post-header">
     <div class="container">
-      {% if page.categories %}
-      <div class="post-categories">
-        {% for category in page.categories %}
-        <a href="{{ '/' | append: category | append: '/' | relative_url }}" class="category-tag">{{ category | replace: '-', ' ' | capitalize }}</a>
-        {% endfor %}
-      </div>
-      {% endif %}
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        {% if page.categories %}
+        <span aria-hidden="true">/</span>
+        <a href="{{ '/' | append: page.categories | first | append: '/' | relative_url }}">{{ page.categories | first | replace: '-', ' ' | capitalize }}</a>
+        <span aria-hidden="true">/</span>
+        <span>{{ page.title }}</span>
+        {% endif %}
+      </nav>
       <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
       {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
       <div class="post-meta">
@@ -24,7 +59,7 @@ layout: default
 
   {% if page.image %}
   <div class="post-hero">
-    <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}" class="hero-image" itemprop="image" />
+    <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}" class="hero-image" itemprop="image" width="1200" height="630" />
     {% if page.image_credit %}
     <p class="image-credit">
       {% if page.image_credit_url %}<a href="{{ page.image_credit_url }}" target="_blank" rel="noopener">{{ page.image_credit }}</a>{% else %}{{ page.image_credit }}{% endif %}
