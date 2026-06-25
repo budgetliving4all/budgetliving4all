@@ -44,6 +44,12 @@ https://www.amazon.com/dp/[ASIN]?tag=budgetliving4-20
 |---------|------|-------|---------|----------|
 | Pyrex Simply Store 18-Piece Glass Storage Set | B0157G34AY | 4.6 | 19,959+ | June 2025 |
 | ThermoPro TP03 Digital Instant Read Thermometer | B01IHHLB3W | 4.6 | 124,700+ | June 2025 |
+| Rubbermaid TakeAlongs 26-Piece Set | B082LNQCLD | 4.4 | 28,000+ | June 2025 |
+| Rubbermaid Brilliance Glass 9-Piece Set | B08BR9HBZ3 | 4.7 | 3,500+ | June 2025 |
+| Lodge 10.25-Inch Cast Iron Skillet | B00006JSUA | 4.7 | 130,000+ | June 2025 |
+| Crock-Pot 6-Quart Cook & Carry Slow Cooker | B004P2NG0K | 4.6 | 29,000+ | June 2025 |
+| Aroma ARC-914SBD Digital Rice Cooker | B007WQ9YNO | 4.4 | 35,000+ | June 2025 |
+| OXO Good Grips 10-Piece POP Container Set | B0029096ZO | 4.7 | 12,000+ | June 2025 |
 
 ## Getting the product image
 

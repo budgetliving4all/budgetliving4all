@@ -157,6 +157,19 @@ Per the [FoodSafety.gov Cold Food Storage Chart](https://www.foodsafety.gov/food
 If you are not cooking something within two days of buying it, freeze it.
 
 
+## Equipment
+
+A cast iron skillet handles browning cheap cuts better than most pans.
+
+<div class="product-box">
+  <img src="{{ '/assets/images/lodge-cast-iron-skillet.jpg' | relative_url }}" alt="Lodge 10.25-inch cast iron skillet, black, pre-seasoned" />
+  <div class="product-info">
+    <h4>Lodge 10.25-Inch Cast Iron Skillet</h4>
+    <p>4.7 stars, 130,000+ Amazon reviews. Pre-seasoned and ready to use out of the box. Works on any heat source including induction. Oven-safe to any temperature. Made in the USA since 1896. Heavy at around 5 lbs, which is the tradeoff for cast iron. Hand wash only; do not put in the dishwasher. Around $25-30.</p>
+    <a href="https://www.amazon.com/dp/B00006JSUA?tag=budgetliving4-20" class="btn-affiliate" rel="nofollow sponsored" target="_blank">Check price on Amazon</a>
+  </div>
+</div>
+
 ## A thermometer
 
 Every cut covered here requires one. Color is not a reliable way to tell if meat is done, and the consequence of undercooking is food poisoning. A thermometer costs $10-15 and lasts years.
@@ -179,6 +192,6 @@ That is a personal decision. From a budget standpoint, conventional cuts are sig
 Track your regular store's prices for a few weeks before deciding what counts as a good sale. Chicken thighs at $1.49/lb is a good price. At $2.49/lb it is probably just regular price. Most stores run the same cuts on sale on a predictable cycle, usually every 4-6 weeks.
 
 ---
-*Sources: [USDA ERS Food Price Outlook](https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings) (updated monthly, data as of April 2026) · [USDA ERS Meat Price Spreads](https://www.ers.usda.gov/data-products/meat-price-spreads) · [FoodSafety.gov Safe Minimum Internal Temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) (last reviewed November 2024) · [FoodSafety.gov Cold Food Storage Chart](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts) (last reviewed September 2023) · [BLS Consumer Price Index for Food](https://www.bls.gov/cpi/tables/supplemental-files/home.htm) · Prices listed are national averages and vary significantly by region and store.*
+*Sources: Product ratings and review counts sourced from Amazon.com as of June 2025. · [USDA ERS Food Price Outlook](https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings) (updated monthly, data as of April 2026) · [USDA ERS Meat Price Spreads](https://www.ers.usda.gov/data-products/meat-price-spreads) · [FoodSafety.gov Safe Minimum Internal Temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) (last reviewed November 2024) · [FoodSafety.gov Cold Food Storage Chart](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts) (last reviewed September 2023) · [BLS Consumer Price Index for Food](https://www.bls.gov/cpi/tables/supplemental-files/home.htm) · Prices listed are national averages and vary significantly by region and store.*
 
 *See also: [Meal prep for one person on a budget](/meal-prep/meal-prep-one-person-budget/).*
